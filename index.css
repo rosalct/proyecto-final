@@ -1,0 +1,46 @@
+body {
+    background: url(imagen/img5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dpto {
+    color: white;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid pink;
+    border-radius: .5rem;
+    background-color: lightpink;
+    width: 150px;
+    text-align: center;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-wrapper {
+    width: 500px;
+    background-color: white;
+}
+
+#escorp {
+    max-height: 200px;
+    max-width: 200px;
+    align-self: flex-start;
+}

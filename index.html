@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Autenticar</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/> 
+    <link rel="stylesheet" href="index.css"/>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="logo">DIF2</h1>
+      <h1 class="dpto">Departamento de Informática de la Facultad 2</h1>
+    </header>
+    <div class="cont">
+      <div class="border m-5 p-5 form-wrapper" style="border-radius:20px; box-shadow:black 3px 5px 15px;">
+
+      <form action="./Sistema.html" class="needs-validation" method="post">
+        <div class="form-group">
+          <label for="uname">Usuario:</label>
+          <input type="text" class="form-control" id="uname" placeholder="Nombre del usuario" name="uname" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+        </div>
+        <div class="form-group">
+          <label for="pwd">Contraseña:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Contraseña del usuario" name="pswd" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please fill out this field.</div>
+          <div class="form-check mb-2 mr-sm-2">
+            <label for="Recordar" class="form-check-label" >
+              <input type="checkbox" class=" form-check-input"> Recordar
+            </label>
+          </div>
+          <div class="col-12 botones">
+            <button class="btn btn-primary" type="submit">Aceptar</button>
+            <button class="btn btn-danger" type="submit">Cancelar</button>
+          </div>
+        </div>
+        <!--Aqui va el remember-->
+        
+      </form>
+
+    </div>
+    <img id="escorp" src="imagen/escorpiones.jpg">
+    </div>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="bootstrap/js/bootstrap.js"></script>
+  <script src="jquery-3.6.0.min.js"></script>
+  </body>
+</html>
